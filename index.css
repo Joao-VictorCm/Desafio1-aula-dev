@@ -1,0 +1,82 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+
+}
+
+span{
+    color: hsl(227, 10%, 46%);
+}
+
+hr{
+   margin-top: 30px;
+}
+
+.layout{
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.img{
+    position: relative;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    border-radius: 50%;
+}
+
+.nome{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.pais{
+    padding-top: 10px;
+}
+
+.parte-inferior{
+    font-display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    width: 350px;
+    padding: 15px;
+    margin: auto;;
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media(max-width:676px){
+    .layout{
+        margin-top: 80px;
+        height: 450px;
+        width: 400px;
+       
+    }
+    .img{
+        height: 150px;
+        width: 150px;
+        margin-top: 25px;
+    }
+    
+    
+    .nome{
+        padding: 5px;
+        margin-top: 7px;
+        margin-left: 7px;
+        margin-bottom: 10px;
+    }
+    hr{
+        margin-top: 10px;
+    }
+   
+}
+
+
